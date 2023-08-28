@@ -12,6 +12,8 @@ let ExpenseItem = (props) => {
    <Card className="expense-item">
       <div className="date">
         <div>{month}</div>
+        <div>show</div>
+        <div></div>
         <div>{props.date.getFullYear()}</div>
         <div>{day}</div>
        </div>
@@ -20,11 +22,9 @@ let ExpenseItem = (props) => {
         <div className="expense-item__price">${props.amount}</div>
       </div>
       </Card>
-
-
-  );
+     );
 };
 
-                                 //
-export default ExpenseItem;      //
-                                 //
+                                 
+export default ExpenseItem;      
+                                 
